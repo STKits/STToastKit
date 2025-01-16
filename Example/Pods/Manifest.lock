@@ -1,0 +1,23 @@
+PODS:
+  - SnapKit (5.7.1)
+  - STToastKit (0.1.0):
+    - SnapKit
+
+DEPENDENCIES:
+  - STToastKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  STToastKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  STToastKit: 4c4f04c045705fc296ecff68dbafb2dffae90934
+
+PODFILE CHECKSUM: 99fbf906c5c3578d50432ca705f6606fceedea7c
+
+COCOAPODS: 1.15.2

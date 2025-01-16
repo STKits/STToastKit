@@ -7,36 +7,32 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'STToast'
+  s.name             = 'STToastKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of STToast.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.summary          = 'A lightweight library for displaying toast and banner notifications.'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  ç is a Swift library for iOS that provides easy-to-use toast and banner notifications.
+  It supports customization, animations, and modern UI designs to enhance user experience.
                        DESC
 
-  s.homepage         = 'https://github.com/cnjsyyb/STToast'
+  s.homepage         = 'https://github.com/STKits/STToastKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'cnjsyyb' => 'cnjsyyb@163.com' }
-  s.source           = { :git => 'https://github.com/cnjsyyb/STToast.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/STKits/STToastKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
+  s.swift_versions = ['5.0']
 
-  s.source_files = 'STToast/Classes/**/*'
+  s.source_files = 'STToastKit/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'STToast' => ['STToast/Assets/*.png']
+  #   'STToastKit' => ['STToastKit/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'SnapKit'
 end

@@ -1,0 +1,6 @@
+framework module STToastKit {
+  umbrella header "STToastKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

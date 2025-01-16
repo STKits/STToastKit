@@ -1,5 +1,5 @@
 import XCTest
-import STToast
+import STToastKit
 
 class Tests: XCTestCase {
     
